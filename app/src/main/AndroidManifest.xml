@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activities.HomeActivity" />
+        <activity android:name=".activities.MyWordsActivity" />
+        <activity android:name=".activities.FlashCardsActivity" />
+        <activity android:name=".activities.SettingsActivity" />
+        <activity android:name=".activities.AddNewWord"></activity>
     </application>
 
 </manifest>
