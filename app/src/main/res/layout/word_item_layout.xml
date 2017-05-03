@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:background="?attr/selectableItemBackgroundBorderless">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="abase"
+                android:textSize="@dimen/_17sdp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:id="@+id/txtWord_worditem"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(noun)"
+                android:textSize="@dimen/_8sdp"
+                android:textStyle="italic"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:id="@+id/txtType_worditem"
+                android:layout_alignBaseline="@+id/txtWord_worditem"
+                android:layout_toEndOf="@+id/txtWord_worditem" />
+
+            <TextView android:id="@+id/txtMeaning_worditem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="reproduce, duplicate"
+                android:layout_below="@+id/txtWord_worditem"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>
