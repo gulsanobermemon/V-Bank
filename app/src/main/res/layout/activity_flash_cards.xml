@@ -8,9 +8,28 @@
     android:background="@color/windowBackgroundColor"
     tools:context="com.example.krsaool.myvocabularybank.activities.FlashCardsActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recycler_flashcards"
+    <com.wajahatkarim3.easyflipview.EasyFlipView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"
+        app:flipOnTouch="true"
+        app:flipEnabled="true"
+        app:flipDuration="400"
+        android:id="@+id/easyFlipView">
+
+        <!-- Back Layout Goes Here -->
+        <include layout="@layout/flash_card_back_layout"/>
+
+        <!-- Front Layout Goes Here -->
+        <include layout="@layout/flash_card_layout"/>
+
+    </com.wajahatkarim3.easyflipview.EasyFlipView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:menu="@menu/bottom_nav_items" />
+
 
 </RelativeLayout>
