@@ -57,7 +57,7 @@
     </FrameLayout>
 
 
-    <com.roughike.bottombar.BottomBar
+    <!--<com.roughike.bottombar.BottomBar
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
@@ -65,5 +65,5 @@
         app:bb_tabXmlResource="@xml/bottombar_tabs"
         />
 
-
+-->
 </RelativeLayout>

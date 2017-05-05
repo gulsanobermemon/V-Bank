@@ -17,7 +17,7 @@ public class MyWordsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_words);
 
-        BottomBar bottomBar = (BottomBar) findViewById(R.id.bottomBar);
+        //BottomBar bottomBar = (BottomBar) findViewById(R.id.bottomBar);
 
        /* bottomBar.setOnTabSelectListener(new OnTabSelectListener() {
             @Override

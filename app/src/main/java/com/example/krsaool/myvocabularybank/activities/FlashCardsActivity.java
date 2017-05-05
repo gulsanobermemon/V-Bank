@@ -57,7 +57,7 @@ public class FlashCardsActivity extends AppCompatActivity {
                 });*/
 
 
-        BottomBar bottomBar = (BottomBar) findViewById(R.id.bottomBar);
+        /*BottomBar bottomBar = (BottomBar) findViewById(R.id.bottomBar);
 
         bottomBar.setOnTabSelectListener(new OnTabSelectListener() {
             @Override
@@ -79,7 +79,7 @@ public class FlashCardsActivity extends AppCompatActivity {
 
 
             }
-        });
+        });*/
 
 
 

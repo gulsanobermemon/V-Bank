@@ -13,7 +13,7 @@
 
         </activity>
         <activity android:name=".activities.HomeActivity"
-            android:theme="@style/AppTheme.TransNav">
+            >
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
 
@@ -21,9 +21,9 @@
         </intent-filter>
         </activity>
         <activity android:name=".activities.MyWordsActivity"
-            android:theme="@style/AppTheme.TransNav"/>
+            />
         <activity android:name=".activities.FlashCardsActivity"
-            android:theme="@style/AppTheme.TransNav">
+            >
 
         </activity>
         <activity android:name=".activities.SettingsActivity" />
