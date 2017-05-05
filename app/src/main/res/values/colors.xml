@@ -9,6 +9,11 @@
     <color name="colorGrayTextDark">#636363</color>
     <color name="windowBackgroundColor">#e5e6e7</color>
 
+    <color name="bottomNavBarBackground">#313439</color>
+    <color name="bottomNavBarIconSelected">#ffffff</color>
+    <color name="bottomNavBarIconUnselected">#545757</color>
+
+
     <color name="colorPink">#eb1460</color>
     <color name="colorRed">#b52913</color>
     <color name="colorGreen">#009687</color>

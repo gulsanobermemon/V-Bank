@@ -4,14 +4,14 @@
     <item
         android:id="@+id/action_item1"
         android:icon="@drawable/color_cursor_white"
-        android:title="Item 1"/>
+        android:title="Home"/>
     <item
         android:id="@+id/action_item2"
         android:icon="@drawable/ic_action_action_search"
-        android:title="Item 2"/>
+        android:title="My Words"/>
     <item
         android:id="@+id/action_item3"
         android:icon="@drawable/ic_action_navigation_arrow_back"
-        android:title="Item 3"/>
+        android:title="Flash Cards"/>
 
 </menu>

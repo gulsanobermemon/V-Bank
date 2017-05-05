@@ -16,5 +16,28 @@
         app:fastScrollPopupTextSize="@dimen/_20sdp"
         app:fastScrollPopupBackgroundSize="@dimen/_40sdp"/>
 
+    <FrameLayout
+        android:id="@+id/contentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBar">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:text="Hi This is My Words"/>
+    </FrameLayout>
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:bb_badgeBackgroundColor="@color/bottomNavBarBackground"
+        app:bb_activeTabColor="@color/bottomNavBarIconSelected"/>
+
+
 
 </RelativeLayout>

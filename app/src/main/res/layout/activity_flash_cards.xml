@@ -8,6 +8,28 @@
     android:background="@color/windowBackgroundColor"
     tools:context="com.example.krsaool.myvocabularybank.activities.FlashCardsActivity">
 
+
+   <!-- <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/navigation"
+        android:animateLayoutChanges="true">
+
+    </FrameLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bottomNavBarBackground"
+        app:itemIconTint="@color/color_state_list"
+        app:itemTextColor="@color/color_state_list"
+        app:menu="@menu/botton_nav_items"/>
+
+-->
     <com.wajahatkarim3.easyflipview.EasyFlipView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,12 +46,24 @@
 
     </com.wajahatkarim3.easyflipview.EasyFlipView>
 
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
+
+    <FrameLayout
+        android:id="@+id/contentContainer"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:menu="@menu/bottom_nav_items" />
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomBar">
+
+
+    </FrameLayout>
+
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        />
 
 
 </RelativeLayout>
