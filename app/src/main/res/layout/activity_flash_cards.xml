@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/_8sdp"
+    android:id="@+id/activity_FlashCards"
     android:background="@color/windowBackgroundColor"
     tools:context="com.example.krsaool.myvocabularybank.activities.FlashCardsActivity">
 
@@ -23,13 +24,6 @@
         <include layout="@layout/flash_card_layout"/>
 
     </com.wajahatkarim3.easyflipview.EasyFlipView>
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="start"
-        android:menu="@menu/bottom_nav_items" />
 
 
 </RelativeLayout>

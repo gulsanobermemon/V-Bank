@@ -5,11 +5,18 @@ import android.os.Bundle;
 
 import com.example.krsaool.myvocabularybank.R;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        //setContentView(R.layout.activity_home);
+        setContentLayout(R.layout.activity_home);
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        setSelected(R.id.action_home);
     }
 }
